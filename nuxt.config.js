@@ -35,6 +35,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
+  serverMiddleware: [
+    '~/api/index.js'
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
